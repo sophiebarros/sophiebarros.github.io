@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700|Viga);
+
+body {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 16px;
+  background-image: url("../img/rockywall/rockywall.png")
+}
+
+#wrapper {
+  max-width: 960px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+a {
+  color: #161719; /*charcoal grey*/
+}
+
+a:hover{
+  color: #616161; /*medium grey*/
+}
+
+a:active{
+  color: #FCFCFE; /*white grey*/
+}
+
+h1{
+  font-family: 'Viga', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2{
+  font-size: 30px;
+}
+
+strong{
+  font-weight: 700;
+}
+
+address{
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 0.5;
+  padding-bottom: 30px;
+}
+
+img{
+  display: block;
+  margin: auto;
+  width: auto;
+  padding-bottom: 20px;
+}
+
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ccc; /* light grey*/
+}
+
+nav ul li {
+  display: inline-block;;
+  overflow: auto;
+}
+
+nav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 75px 12px 75px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #616161;/*medium grey*/
+}
+
+nav a:active{
+  color: #FCFCFE; /*white grey*/
+}
+
+
+main{
+  padding-top: 40px;
+}
+
+section{
+  padding-bottom: 5px; 
+}
+
+
+article{
+  padding-bottom: 10px;
+}
+
+
+/* questions:
+review of css order:
+body
+wrapper
+links
+general elements
+structure (header, section, article, nav)
+ids
+classes
+
+less white space between section header and content
+
+*/

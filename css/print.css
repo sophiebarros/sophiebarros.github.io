@@ -1,0 +1,51 @@
+*{
+  background: transparent; !important
+  color: black;
+  font-size: 12pt;
+  font-family: serif;
+  line-height: 1;
+}
+
+h1{
+  font-size: 16pt;
+  text-align: center;
+}
+
+address{
+  text-align: center;
+  font-style: normal;
+  line-height: 0.30;
+  text-decoration: none;
+}
+
+img, nav{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+section{
+  padding: 0.03cm;
+}
+
+p{
+  line-height:0.20;
+}
+
+h2{
+  font-size: 14pt;
+  line-height: 0.20;
+}
+
+
+strong{
+  font-weight: bold;
+}
+
+#work-experience{
+  padding-top: 0.6cm;
+}
