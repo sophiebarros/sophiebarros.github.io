@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|News+Cycle:400,700);
+@import "fotorama";
+
+body {
+  font-size: 16px;
+  font-family:'News Cycle', sans-serif;
+  line-height: 1;
+  background-image: url(../img/furley_bg/furley_bg.png);
+}
+
+#wrapper{
+  max-width: 960px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  font-size: 80px;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  margin: 10px 1px 1px 1px;
+}
+
+
+address{
+  text-align: center;
+  line-height: 1;
+  font-style: normal;
+}
+
+address p a{
+  text-decoration: underline;
+  color: black;
+}
+
+address p a:hover{
+  color: #B6B7C0; /*light grey*/
+}
+
+address p a:active{
+  color: white;
+}
+
+/*splash page nav*/
+
+nav ul li{
+  list-style-type: none;
+}
+
+nav ul li.resume{
+  position: absolute;
+  top: 260px;
+  left: 315px;
+}
+
+nav ul li.writing{
+  position: absolute;
+  top: 260px;
+  right: 315px;
+}
+
+nav ul li.video{
+  position: absolute;
+  top: 590px;
+  left: 315px;
+}
+
+nav ul li.photo{
+  position: absolute;
+  top:590px;
+  right: 315px;
+}
+
+nav ul li img:hover{
+  opacity: 0.5;
+}
+
+img{
+  display: block;
+  margin: auto;
+  width: auto;
+  padding:20px 0 20px 0;
+}
+
+/*other pages nav*/
+
+div.bar-nav nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #ccc; /* light grey*/
+  color: black;
+  text-decoration: none;
+}
+
+div.bar-nav nav ul li {
+  display: inline-block;
+  overflow: visible;
+  margin: 20px 70px 25px 70px;
+}
+
+div.bar-nav nav ul li:hover{
+  opacity: 0.5;
+}
+
+div.bar-nav nav ul li:active{
+  color: #FCFCFE; /*white grey*/
+}
+
+div.bar-nav nav ul li:visited{
+  color: #D76269; /*rose*/
+}
+
+main{
+  margin: 0 auto;
+}
+
+section{
+  padding-bottom: 20px;
+}
+
+
+.computer{
+  float: left;
+  overflow: auto;
+  padding-right: 105px;
+}
+
+.broadcast-media{
+  float: left;
+  overflow: auto;
+  padding-right: 105px;
+}
+
+.languages{
+  float: left;
+  overflow: auto;
+}
