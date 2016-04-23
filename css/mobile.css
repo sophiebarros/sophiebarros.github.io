@@ -50,9 +50,12 @@ address p a:active{
 
 nav ul li{
   list-style-type: none;
-  text-align: center;
+
 }
 
+nav ul li img{
+  text-align: center;
+}
 
 nav ul li img:hover{
   opacity: 0.5;
