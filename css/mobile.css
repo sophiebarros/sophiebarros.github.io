@@ -1,3 +1,5 @@
+@media (max-width:360px) {
+
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|News+Cycle:400,700);
 @import "fotorama";
 
@@ -9,8 +11,7 @@ body {
 }
 
 #wrapper{
-  max-width: 960px;
-  min-width: 320px;
+  max-width: 320px;
   margin: 0 auto;
 }
 
@@ -24,7 +25,6 @@ h1{
   text-align: center;
   margin: 10px 1px 1px 1px;
 }
-
 
 address{
   text-align: center;
@@ -50,31 +50,9 @@ address p a:active{
 
 nav ul li{
   list-style-type: none;
+  text-align: center;
 }
 
-nav ul li.resume{
-  float: left;
-  overflow: auto;
-  padding-left: 100px;
-}
-
-nav ul li.writing{
-  float: left;
-  overflow: auto;
-  padding-left: 40px;
-}
-
-nav ul li.video{
-  float: left;
-  overflow: auto;
-  padding-left: 100px;
-}
-
-nav ul li.photo{
-  float: left;
-  overflow: auto;
-  padding-left: 40px;
-}
 
 nav ul li img:hover{
   opacity: 0.5;
@@ -126,19 +104,4 @@ section{
 }
 
 
-.computer{
-  float: left;
-  overflow: auto;
-  padding-right: 105px;
-}
-
-.broadcast-media{
-  float: left;
-  overflow: auto;
-  padding-right: 105px;
-}
-
-.languages{
-  float: left;
-  overflow: auto;
 }
