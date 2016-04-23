@@ -106,5 +106,16 @@ section{
   padding-bottom: 20px;
 }
 
+img.960{
+  display: none;
+}
+
 
 }
+/* questions:
+
+how to align index nav images on mobile
+what to do about normal nav bar
+why are my links not changing color
+why are my images not hiding?
+*/

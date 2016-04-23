@@ -87,6 +87,10 @@ img{
   padding:20px 0 20px 0;
 }
 
+img.320{
+  display: none;
+}
+
 /*other pages nav*/
 
 div.bar-nav nav ul {
