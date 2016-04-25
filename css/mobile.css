@@ -1,4 +1,4 @@
-@media (max-width:360px) {
+@media (max-width:320px) {
 
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|News+Cycle:400,700);
 @import "fotorama";
@@ -50,12 +50,15 @@ address p a:active{
 
 nav ul li{
   list-style-type: none;
-
 }
 
 nav ul li img{
-  text-align: center;
-  float: none;
+  position: absolute;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right:0;
+  margin: auto;
   padding-bottom: 1px;
 }
 
@@ -63,12 +66,6 @@ nav ul li img:hover{
   opacity: 0.5;
 }
 
-img{
-  display: block;
-  margin: auto;
-  width: auto;
-  padding:20px 0 20px 0;
-}
 
 /*other pages nav*/
 
@@ -77,9 +74,8 @@ div.bar-nav nav ul {
   margin: 0;
   padding: 0;
   background-color: #ccc; /* light grey*/
-  color: black;
-  text-decoration: none;
 }
+
 
 div.bar-nav nav ul li {
   display: inline-block;
@@ -87,15 +83,21 @@ div.bar-nav nav ul li {
   margin: 20px 70px 25px 70px;
 }
 
-div.bar-nav nav ul li:hover{
-  opacity: 0.5;
+div.bar-nav nav ul li a{
+  color: black;
+  text-decoration: none;
 }
 
-div.bar-nav nav ul li:active{
+div.bar-nav nav ul li a:hover{
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+div.bar-nav nav ul li a:active{
   color: #FCFCFE; /*white grey*/
 }
 
-div.bar-nav nav ul li:visited{
+div.bar-nav nav ul li a:visited{
   color: #D76269; /*rose*/
 }
 
@@ -118,7 +120,6 @@ img.960{
 
 how to align index nav images on mobile
 what to do about normal nav bar
-why are my links not changing color
 why are my images not hiding?
 How do I make my videos responsive?
 */

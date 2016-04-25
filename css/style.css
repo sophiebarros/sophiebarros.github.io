@@ -98,9 +98,8 @@ div.bar-nav nav ul {
   margin: 0;
   padding: 0;
   background-color: #ccc; /* light grey*/
-  color: black;
-  text-decoration: none;
 }
+
 
 div.bar-nav nav ul li {
   display: inline-block;
@@ -108,15 +107,21 @@ div.bar-nav nav ul li {
   margin: 20px 70px 25px 70px;
 }
 
-div.bar-nav nav ul li:hover{
-  opacity: 0.5;
+div.bar-nav nav ul li a{
+  color: black;
+  text-decoration: none;
 }
 
-div.bar-nav nav ul li:active{
+div.bar-nav nav ul li a:hover{
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+div.bar-nav nav ul li a:active{
   color: #FCFCFE; /*white grey*/
 }
 
-div.bar-nav nav ul li:visited{
+div.bar-nav nav ul li a:visited{
   color: #D76269; /*rose*/
 }
 
