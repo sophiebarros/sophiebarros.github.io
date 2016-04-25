@@ -8,6 +8,7 @@ body {
   font-family:'News Cycle', sans-serif;
   line-height: 1;
   background-image: url(../img/furley_bg/furley_bg.png);
+  margin:0;
 }
 
 #wrapper{
@@ -52,14 +53,30 @@ nav ul li{
   list-style-type: none;
 }
 
-#splash{
-  display: block;
-  margin: 0 auto;
+nav ul li.resume{
+  float: none;
+  overflow: auto;
+  padding-left: 0;
 }
 
-nav ul li a:active{
-  opacity: 0.5;
+nav ul li.writing{
+  float: none;
+  overflow: auto;
+  padding-left: 0;
 }
+
+nav ul li.video{
+  float: none;
+  overflow: auto;
+  padding-left: 0;
+}
+
+nav ul li.photo{
+  float: none;
+  overflow: auto;
+  padding-left: 0;
+}
+
 
 
 /*other pages nav*/
