@@ -52,7 +52,7 @@ nav ul li{
   list-style-type: none;
 }
 
-nav ul li img{
+nav{
   display: block;
   margin: 0 auto;
   padding-bottom: 1px;
