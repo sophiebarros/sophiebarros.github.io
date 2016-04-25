@@ -33,16 +33,13 @@ address{
   font-style: normal;
 }
 
-address p a{
+address p a i{
   text-decoration: underline;
   color: black;
 }
 
-address p a:hover{
-  color: #B6B7C0; /*light grey*/
-}
 
-address p a:active{
+address p a i:active{
   color: white;
 }
 
@@ -54,6 +51,10 @@ address p a:active{
 
 #mobile-social{
   display: block;
+}
+
+#linkedin-web{
+  display: none;
 }
 
 }
