@@ -48,95 +48,16 @@ address p a:active{
 
 /*splash page nav*/
 
-
-nav ul li{
-  list-style-type: none;
-}
-
-nav ul li.resume{
-  float: none;
-  overflow: auto;
-  padding-left: 0;
-}
-
-nav ul li.writing{
-  float: none;
-  overflow: auto;
-  padding-left: 0;
-}
-
-nav ul li.video{
-  float: none;
-  overflow: auto;
-  padding-left: 0;
-}
-
-nav ul li.photo{
-  float: none;
-  overflow: auto;
-  padding-left: 0;
-}
-
-img{
-  display: inline;
-  margin: 0;
-  width: 0;
-  padding:0;
-}
-
-/*other pages nav*/
-
-div.bar-nav nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #ccc; /* light grey*/
-}
-
-
-div.bar-nav nav ul li {
-  display: inline-block;
-  overflow: visible;
-  margin: 20px 70px 25px 70px;
-}
-
-div.bar-nav nav ul li a{
-  color: black;
-  text-decoration: none;
-}
-
-div.bar-nav nav ul li a:hover{
-  opacity: 0.5;
-  text-decoration: underline;
-}
-
-div.bar-nav nav ul li a:active{
-  color: #FCFCFE; /*white grey*/
-}
-
-div.bar-nav nav ul li a:visited{
-  color: #D76269; /*rose*/
-}
-
-
-main{
-  margin: 0 auto;
-}
-
-section{
-  padding-bottom: 20px;
-}
-
-img.960{
+#splash-mobile{
   display: none;
 }
+
 
 
 }
 /* questions:
 
-how to align index nav images on mobile
-what to do about normal nav bar
-why are my images not hiding?
-How do I make my videos responsive?
+add message that displays visit my full website at url
+add social media and icons
+hide everything else
 */
