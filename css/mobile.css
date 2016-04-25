@@ -33,8 +33,9 @@ address{
   font-style: normal;
 }
 
-address p a i{
-  text-decoration: underline;
+address p a i.fa fa-linkedin-square fa-4x
+address p a i.fa fa-twitter fa-4x {
+  text-decoration: none;
   color: black;
 }
 
@@ -43,9 +44,7 @@ address p a i:active{
   color: white;
 }
 
-/*splash page nav*/
-
-#splash-mobile{
+address p.linkedin-web{
   display: none;
 }
 
@@ -56,5 +55,12 @@ address p a i:active{
 #linkedin-web{
   display: none;
 }
+
+/*splash page nav*/
+
+#splash-mobile{
+  display: none;
+}
+
 
 }
