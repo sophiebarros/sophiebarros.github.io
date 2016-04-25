@@ -52,13 +52,12 @@ nav ul li{
   list-style-type: none;
 }
 
-nav ul li a img{
+#splash{
   display: block;
   margin: 0 auto;
-  padding-bottom: 1px;
 }
 
-nav ul li a img:hover{
+nav ul li a:active{
   opacity: 0.5;
 }
 
