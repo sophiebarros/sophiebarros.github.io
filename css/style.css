@@ -151,3 +151,7 @@ section{
   float: left;
   overflow: auto;
 }
+
+#mobile-social{
+  display: none;
+}

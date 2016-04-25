@@ -52,12 +52,8 @@ address p a:active{
   display: none;
 }
 
-
+#mobile-social{
+  display: block;
+}
 
 }
-/* questions:
-
-add message that displays visit my full website at url
-add social media and icons
-hide everything else
-*/
