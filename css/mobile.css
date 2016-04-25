@@ -55,30 +55,30 @@ nav ul li{
 
 nav ul li.resume{
   float: none;
-  overflow: visible;
+  overflow: auto;
   padding-left: 0;
 }
 
 nav ul li.writing{
   float: none;
-  overflow: visible;
+  overflow: auto;
   padding-left: 0;
 }
 
 nav ul li.video{
   float: none;
-  overflow: visible;
+  overflow: auto;
   padding-left: 0;
 }
 
 nav ul li.photo{
   float: none;
-  overflow: visible;
+  overflow: auto;
   padding-left: 0;
 }
 
 img{
-  display: block;
+  display: inline;
   margin: 0;
   width: 0;
   padding:0;
